@@ -8,9 +8,15 @@
     <name>jstore Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <properties>
+        <spring.ver>4.0.4.RELEASE</spring.ver>
         <jetty.ver>9.1.5.v20140505</jetty.ver>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${spring.ver}</version>
+        </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
