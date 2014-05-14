@@ -12,6 +12,5 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupp
 @EnableWebMvc
 @Configuration
 @ComponentScan
-
 public class WebMvcConfig extends WebMvcConfigurationSupport{
 }
