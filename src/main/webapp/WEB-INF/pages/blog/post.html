@@ -3,30 +3,22 @@
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
       layout:decorator="master">
 <head>
-    <title>BLOG</title>
+    <title> Post </title>
 </head>
 <body>
-
 <section layout:fragment="content">
-
-    <h2 th:text="${blog.title}"></h2>
-
-    <div class="row" th:each="post: ${blog.posts}">
+    <div class="row">
 
         <div class="col-md-6">
 
-            <h2 ><a th:href="@{'/blog/posts/' + ${post.id}}" th:text="${post.subject}"></a></h2 >
+            <h2 th:text="${post.subject}"></h2>
 
             <p class="post-date" th:text="${post.date}"></p>
 
-            <pre th:text="${post.shortText}"></pre>
-
+            <pre th:text="${post.text}"></pre>
         </div>
-
     </div>
 
 </section>
-
-
 </body>
 </html>
