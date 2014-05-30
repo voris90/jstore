@@ -7,7 +7,7 @@
 </head>
 <body>
 <section layout:fragment="content">
-    <div class="row">
+    <div class="row ">
 
         <div class="col-md-6">
 
@@ -19,6 +19,50 @@
         </div>
     </div>
 
+    <p><h5>Comments</h5></p>
+
+    <form th:action="@{/blog/comments}" method="post" th:object="${newComment}">
+
+        <div class="row">
+
+            <div class="col-md-6">
+
+                <textarea th:field="*{text}" class="form-control" cols="1000" rows="5"></textarea>
+
+            </div>
+
+        </div>
+        <br/>
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="pull-right">
+
+                    <button class="btn btn-primary">Add Comment</button>
+                </div>
+
+
+            </div>
+
+        </div>
+        <br/>
+
+    </form>
+
+    <div class="row well comment" th:each="comment : ${post.comments}">
+
+        <div class="col-md-6 post">
+
+            <p class="post-date" th:text="${comment.date}"></p>
+
+            <p th:text="${comment.author}"></p>
+
+            <p th:text="${comment.text}"></p>
+
+        </div>
+
+    </div>
 </section>
 </body>
 </html>
