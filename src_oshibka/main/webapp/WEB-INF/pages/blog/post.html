@@ -3,13 +3,14 @@
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
       layout:decorator="master">
 <head>
-    <title>Post</title>
+    <title> Post </title>
 </head>
 <body>
 <section layout:fragment="content">
+    <div class="row ">
 
-    <div class="row">
-        <div class="col-md-6 post">
+        <div class="col-md-6">
+
             <h2 th:text="${post.subject}"></h2>
 
             <p class="post-date" th:text="${post.date}"></p>
@@ -18,34 +19,50 @@
         </div>
     </div>
 
-    <p><h1>Comments</h1></p>
+    <p><h5>Comments</h5></p>
 
     <form th:action="@{/blog/comments}" method="post" th:object="${newComment}">
+
         <div class="row">
+
             <div class="col-md-6">
+
                 <textarea th:field="*{text}" class="form-control" cols="1000" rows="5"></textarea>
+
             </div>
+
         </div>
         <br/>
+
         <div class="row">
+
             <div class="col-md-6">
                 <div class="pull-right">
-                    <button class="btn btn-primary">Submit</button>
+
+                    <button class="btn btn-primary">Add Comment</button>
                 </div>
+
+
             </div>
+
         </div>
+        <br/>
+
     </form>
 
-    <div class="row comment" th:each="comment : ${post.comments}">
-        <div class="col-md-6">
+    <div class="row well comment" th:each="comment : ${post.comments}">
+
+        <div class="col-md-6 post">
+
             <p class="post-date" th:text="${comment.date}"></p>
 
             <p th:text="${comment.author}"></p>
 
             <p th:text="${comment.text}"></p>
-        </div>
-    </div>
 
+        </div>
+
+    </div>
 </section>
 </body>
 </html>

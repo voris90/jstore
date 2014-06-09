@@ -1,9 +1,12 @@
 package uz.micros.jstore.service.blog;
 
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import uz.micros.jstore.entity.blog.Blog;
 import uz.micros.jstore.entity.blog.Post;
+import uz.micros.jstore.util.DbManager;
 
+import java.sql.Connection;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -11,30 +14,31 @@ import java.util.List;
 @Service
 public class BlogService {
 
-    public Blog getBlog() {
-
-
+    public Blog getBlog(){
         Blog blog = new Blog();
-        blog.setTitle("Jstore corporate SUPER Blog");
+        blog.setTitle("jStore Corporate Blog!!!");
 
-        List<Post> posts = new ArrayList<>();
+        List<Post> posts = DbManager.runQuery("select * from posts");
 
-        for (int k = 0; k < 3; k++) {
+
+
+/*        for(int k = 0; k < 3; k++){
 
             Post post = new Post();
             post.setId(k + 100);
-            post.setSubject("Post" + (k + 1));
+            post.setSubject("Post " + (k + 1));
             post.setDate(new Date());
-            post.setText("\"Мы только что вернулись из микрорайона Артем. В тот момент, когда раздались новые взрывы и стала поступать информация о том, что вновь есть пострадавшие, мы отправились туда, и по дороге рядом с нашей машиной буквально упал один из снарядов, к счастью никто из членов съемочной группы не пострадал\", — рассказал в эфире телеканала \"Россия-24\" спецкор ВГТРК Сергей Арсеничев.\n" +
+            post.setText("Украинских дипломатов информируют, что в МИД России поступили многочисленные обращения от граждан и организаций восточных регионов Украины с просьбой оказания гуманитарной помощи. В частности, речь идет о поставке медицинских препаратов.\n" +
                     "\n" +
-                    "РИА Новости http://ria.ru/world/20140528/1009652023.html#ixzz3317pyAnU");
+                    "МИД России предложил согласовать поставки гуманитарной помощи по линии соответствующих ведомств России и Украины и рассчитывает на максимально оперативный ответ.\n" +
+                    "\n" +
+                    "Силовая операция на востоке Украины продолжается с апреля 2014 года. После президентских выборов 25 мая на Украине боевые действия в регионе вновь перешли в активную фазу. Тогда избранный глава государства Петр Порошенко высказался за продолжение силовой операции. А вице-премьер Дмитрий Ярема пообещал, что бои на востоке страны продлятся до тех пор, пока не будут уничтожены все ополченцы.");
 
             posts.add(post);
-        }
+        }*/
 
         blog.setPosts(posts);
 
         return blog;
     }
-
 }

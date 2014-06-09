@@ -1,5 +1,8 @@
 package uz.micros.jstore.entity.blog;
 
+/**
+ * Created by java on 21.05.14.
+ */
 import java.util.Date;
 import java.util.List;
 
@@ -32,9 +35,8 @@ public class Post {
     }
 
     public String getShortText(){
-        return text != null && text.length() > 0
-                ? (text.length() > 100 ? text.substring(0, 99) + "..." : text)
-                : "";
+        return text  != null && text.length() > 0 ? (text.length()> 300 ? text.substring(0, 199) + "..." : text)
+         : "";
     }
 
     public void setText(String text) {
