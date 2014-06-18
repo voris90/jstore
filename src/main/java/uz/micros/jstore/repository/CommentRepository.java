@@ -2,13 +2,9 @@ package uz.micros.jstore.repository;
 
 import uz.micros.jstore.entity.blog.Comment;
 
-/**
- * Created by java on 09.06.14.
- */
 public class CommentRepository {
+    public void addComment(Comment comment){
 
-    public void addComment (Comment comment){
-        
     }
 
     public Comment getComment(int id){
@@ -19,7 +15,7 @@ public class CommentRepository {
 
     }
 
-    public void deleteComment (int id){
+    public void deleteComment(int id){
 
     }
 }

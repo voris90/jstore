@@ -2,9 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85084813-7619-4a30-b485-927b5f3ef0c5" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\Javawork\jstore\.idea\libraries\Maven__org_javassist_javassist_3_16_1_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\.idea\libraries\Maven__org_webjars_bootstrap_3_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\.idea\libraries\Maven__org_webjars_jquery_2_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\src\main\java\uz\micros\jstore\repository\Mapper.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\src\main\java\uz\micros\jstore\util\DbManager.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\src_oshibka\main\java\uz\micros\jstore\config\AppConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\src_oshibka\main\java\uz\micros\jstore\config\ViewConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\src_oshibka\main\java\uz\micros\jstore\config\WebInitializer.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\src_oshibka\main\java\uz\micros\jstore\config\WebMvcConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\src_oshibka\main\java\uz\micros\jstore\controller\IndexController.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\src_oshibka\main\java\uz\micros\jstore\controller\blog\BlogController.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\src_oshibka\main\java\uz\micros\jstore\controller\blog\CommentController.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\src_oshibka\main\java\uz\micros\jstore\controller\blog\PostController.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\src_oshibka\main\java\uz\micros\jstore\entity\Author.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\src_oshibka\main\java\uz\micros\jstore\entity\blog\Blog.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\src_oshibka\main\java\uz\micros\jstore\entity\blog\Comment.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\src_oshibka\main\java\uz\micros\jstore\entity\blog\Post.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\src_oshibka\main\java\uz\micros\jstore\service\blog\BlogService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\src_oshibka\main\java\uz\micros\jstore\service\blog\PostService.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\src_oshibka\main\java\uz\micros\jstore\util\Interceptor.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\src_oshibka\main\resources\file.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\src_oshibka\main\webapp\WEB-INF\pages\blog\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\src_oshibka\main\webapp\WEB-INF\pages\blog\post.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\src_oshibka\main\webapp\WEB-INF\pages\hello.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\src_oshibka\main\webapp\WEB-INF\pages\master.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\src_oshibka\main\webapp\WEB-INF\pages\shablon.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\src_oshibka\main\webapp\resources\css\site.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Javawork\jstore\src_oshibka\main\webapp\resources\js\file.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/AppConfig.java" afterPath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/AppConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/repository/BlogRepository.java" afterPath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/repository/BlogRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/service/blog/BlogService.java" afterPath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/service/blog/BlogService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/util/DbManager.java" afterPath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/util/DbManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/entity/blog/Comment.java" afterPath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/entity/blog/Comment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/repository/CommentRepository.java" afterPath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/repository/CommentRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/entity/blog/Post.java" afterPath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/entity/blog/Post.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/repository/PostRepository.java" afterPath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/repository/PostRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/service/blog/PostService.java" afterPath="$PROJECT_DIR$/src/main/java/uz/micros/jstore/service/blog/PostService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jstore.iml" afterPath="$PROJECT_DIR$/jstore.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/jstore_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/jstore_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
@@ -63,38 +98,7 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/service/blog/BlogService.java" line="24" class="uz.micros.jstore.service.blog.BlogService" package="uz.micros.jstore.service.blog">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/util/DbManager.java" line="15" class="uz.micros.jstore.util.DbManager" package="uz.micros.jstore.util">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -104,30 +108,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PostController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/controller/blog/PostController.java">
+      <file leaf-file-name="PostService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/service/blog/PostService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="56" selection-start="863" selection-end="863" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="595">
+            <state line="33" column="33" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="816">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/service/blog/PostService.java">
+      <file leaf-file-name="Comment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/entity/blog/Comment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
-              <folding>
-                <marker date="1401714364821" expanded="true" signature="494:1139" placeholder="{...}" />
-              </folding>
+            <state line="23" column="24" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1037">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DbManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/util/DbManager.java">
+      <file leaf-file-name="Blog.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/entity/blog/Blog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="0" selection-start="1824" selection-end="1824" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1275">
+            <state line="25" column="0" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
@@ -136,7 +138,7 @@
       <file leaf-file-name="BlogService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/service/blog/BlogService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+            <state line="8" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="578">
               <folding />
             </state>
           </provider>
@@ -145,47 +147,25 @@
       <file leaf-file-name="PostRepository.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/repository/PostRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="39" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="1037">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="12" column="11" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="833">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mapper.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/repository/Mapper.java">
+      <file leaf-file-name="CommentRepository.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/repository/CommentRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="0" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.33398822" vertical-offset="714" max-vertical-offset="1292">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="4" column="13" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="459">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InvocableHandlerMethod.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.4.RELEASE/spring-web-4.0.4.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <file leaf-file-name="BlogRepository.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/repository/BlogRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="218" column="98" selection-start="8547" selection-end="8547" vertical-scroll-proportion="0.0" vertical-offset="2932" max-vertical-offset="4216">
-              <folding>
-                <element signature="e#0#10724#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#3376#3377#0" expanded="false" />
-                <element signature="e#3425#3426#0" expanded="false" />
-                <element signature="e#3642#3643#0" expanded="false" />
-                <element signature="e#3691#3692#0" expanded="false" />
-                <element signature="e#3999#4000#0" expanded="false" />
-                <element signature="e#4060#4061#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommentController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/controller/blog/CommentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="43" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="459">
+            <state line="4" column="13" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="289">
               <folding />
             </state>
           </provider>
@@ -200,10 +180,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Interceptor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/util/Interceptor.java">
+      <file leaf-file-name="PersistenceConfig.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/PersistenceConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+            <state line="75" column="0" selection-start="2369" selection-end="2369" vertical-scroll-proportion="0.0" vertical-offset="724" max-vertical-offset="1445">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.properties" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/app.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="28" selection-start="233" selection-end="233" vertical-scroll-proportion="0.16504854" vertical-offset="0" max-vertical-offset="721">
               <folding />
             </state>
           </provider>
@@ -235,9 +224,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/master.html" />
         <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/entity/blog/blog.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/hello.html" />
-        <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/entity/blog/Comment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/entity/blog/Blog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/entity/blog/Post.java" />
         <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/controller/blog/BlogController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/blog/shablon.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/blog/host.html" />
@@ -248,12 +234,17 @@
         <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/controller/blog/CommentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/WebMvcConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/util/Interceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/service/blog/PostService.java" />
         <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/service/blog/BlogService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/util/DbManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/repository/PostRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/repository/Mapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/entity/blog/Blog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/service/blog/PostService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/entity/blog/Post.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/app.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/entity/blog/Comment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/repository/PostRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/PersistenceConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -279,7 +270,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="jstore Maven Webapp" />
+          <option name="myItemId" value="jstore" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -293,7 +284,131 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="jstore Maven Webapp" />
+          <option name="myItemId" value="jstore" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="org.thymeleaf:thymeleaf-spring4:2.1.3.RELEASE" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="jstore" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="org.thymeleaf:thymeleaf-spring4:2.1.3.RELEASE" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="org.thymeleaf:thymeleaf:2.1.3.RELEASE" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="jstore" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="org.springframework:spring-orm:4.0.4.RELEASE" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="jstore" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="org.springframework:spring-webmvc:4.0.4.RELEASE" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="jstore" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="org.springframework:spring-webmvc:4.0.4.RELEASE" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="org.springframework:spring-core:4.0.4.RELEASE" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="jstore" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="org.springframework:spring-webmvc:4.0.4.RELEASE" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="org.springframework:spring-context:4.0.4.RELEASE" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="org.springframework:spring-aop:4.0.4.RELEASE" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="jstore" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -318,7 +433,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -333,6 +448,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -340,10 +457,6 @@
               <option name="myItemId" value="jstore" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -382,40 +495,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -442,6 +521,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -472,6 +555,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jstore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -594,10 +699,6 @@
               <option name="myItemId" value="entity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -622,78 +723,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -727,24 +756,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jstore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -769,8 +782,9 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jstore2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1384,14 +1398,18 @@
       <workItem from="1402318825603" duration="28000" />
       <workItem from="1402318990241" duration="48000" />
       <workItem from="1402492514001" duration="6340000" />
+      <workItem from="1402925288698" duration="5716000" />
+      <workItem from="1403018463395" duration="171000" />
+      <workItem from="1403097876704" duration="1595000" />
+      <workItem from="1403099451124" duration="270000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62068000" />
+    <option name="totallyTimeSpent" value="69820000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1408,19 +1426,19 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31770834" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.204375" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20625" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933334" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.205" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27604166" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.206875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3359375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294271" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31640625" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1445,18 +1463,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="39" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="561" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/WebMvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="391">
@@ -1484,7 +1490,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="391">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1589,21 +1597,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="30" selection-start="768" selection-end="768" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="19" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.0" vertical-offset="379" max-vertical-offset="1105" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/entity/blog/Blog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="461" selection-end="461" vertical-scroll-proportion="0.7548077" vertical-offset="9" max-vertical-offset="425" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/master.html">
@@ -1621,49 +1617,29 @@
         <state line="13" column="28" selection-start="467" selection-end="467" vertical-scroll-proportion="0.5177665" vertical-offset="0" max-vertical-offset="394" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/entity/blog/Post.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="986" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/entity/blog/Comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/controller/blog/BlogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <folding />
-        </state>
+        <state line="27" column="0" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/site.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="425">
-          <folding />
-        </state>
+        <state line="19" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="425" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/blog/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="493">
-          <folding />
-        </state>
+        <state line="9" column="18" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="493" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/blog/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="28" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="952">
-          <folding />
-        </state>
+        <state line="20" column="28" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="952" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/util/Interceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
+        <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.4.RELEASE/spring-webmvc-4.0.4.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.java">
@@ -1671,19 +1647,95 @@
         <state line="35" column="22" selection-start="1374" selection-end="1374" vertical-scroll-proportion="0.33333334" vertical-offset="50" max-vertical-offset="2312" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/controller/blog/PostController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="56" selection-start="863" selection-end="863" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="595" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.4.RELEASE/spring-web-4.0.4.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="218" column="98" selection-start="8547" selection-end="8547" vertical-scroll-proportion="0.0" vertical-offset="2932" max-vertical-offset="4216" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/controller/blog/CommentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="43" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="459">
+        <state line="16" column="43" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="459" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.0.4.RELEASE/spring-beans-4.0.4.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="189" column="0" selection-start="13029" selection-end="13029" vertical-scroll-proportion="0.83076924" vertical-offset="2818" max-vertical-offset="3298" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/entity/blog/Post.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="24" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+          <folding>
+            <element signature="method#getShortText#0;class#Post#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/entity/blog/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="24" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/entity/blog/Blog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/service/blog/BlogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/service/blog/PostService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="33" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/repository/PostRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="11" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/repository/CommentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/repository/BlogRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="571" selection-end="571" vertical-scroll-proportion="0.33045357" vertical-offset="0" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/WebInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="47" selection-start="1446" selection-end="1446" vertical-scroll-proportion="0.50292397" vertical-offset="456" max-vertical-offset="969">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state line="42" column="33" selection-start="1436" selection-end="1436" vertical-scroll-proportion="1.4406048" vertical-offset="47" max-vertical-offset="867">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1694,81 +1746,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/WebMvcConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/PersistenceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="612">
+        <state line="75" column="0" selection-start="2369" selection-end="2369" vertical-scroll-proportion="0.0" vertical-offset="183" max-vertical-offset="1207">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/controller/blog/PostController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="56" selection-start="863" selection-end="863" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.4.RELEASE/spring-web-4.0.4.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="218" column="98" selection-start="8547" selection-end="8547" vertical-scroll-proportion="0.0" vertical-offset="2932" max-vertical-offset="4216">
-          <folding>
-            <element signature="e#0#10724#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#3376#3377#0" expanded="false" />
-            <element signature="e#3425#3426#0" expanded="false" />
-            <element signature="e#3642#3643#0" expanded="false" />
-            <element signature="e#3691#3692#0" expanded="false" />
-            <element signature="e#3999#4000#0" expanded="false" />
-            <element signature="e#4060#4061#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="20" selection-start="2414" selection-end="2414" vertical-scroll-proportion="0.0" vertical-offset="844" max-vertical-offset="1666">
+        <state line="115" column="62" selection-start="3924" selection-end="3924" vertical-scroll-proportion="2.7115119" vertical-offset="0" max-vertical-offset="2465">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/service/blog/PostService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/config/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
-          <folding>
-            <marker date="1401714364821" expanded="true" signature="494:1139" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/util/DbManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="0" selection-start="1824" selection-end="1824" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1275">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/service/blog/BlogService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0" vertical-offset="93" max-vertical-offset="731">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/repository/PostRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="39" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="1037">
+        <state line="17" column="51" selection-start="713" selection-end="713" vertical-scroll-proportion="0.40083218" vertical-offset="0" max-vertical-offset="721">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uz/micros/jstore/repository/Mapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/app.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.33398822" vertical-offset="714" max-vertical-offset="1292">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="7" column="28" selection-start="233" selection-end="233" vertical-scroll-proportion="0.16504854" vertical-offset="0" max-vertical-offset="721">
+          <folding />
         </state>
       </provider>
     </entry>

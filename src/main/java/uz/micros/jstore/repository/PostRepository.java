@@ -1,22 +1,23 @@
 package uz.micros.jstore.repository;
 
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import uz.micros.jstore.entity.blog.Post;
-import uz.micros.jstore.util.DbManager;
 
-import javax.xml.soap.Text;
+import javax.transaction.Transactional;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
-import java.util.Map;
 
 @Repository
 public class PostRepository {
 
-    private class PostMapper extends Mapper<Post>{};
+    @Autowired
+    private SessionFactory sessionFactory;
 
-    public void addPost (Post post){
-        
+    public void addPost(Post post){
+
     }
 
     public Post getPost(int id){
@@ -27,29 +28,16 @@ public class PostRepository {
 
     }
 
-    public void deletePost (int id){
+    public void deletePost(int id){
 
     }
 
+    @Transactional
     public List<Post> getPosts() {
-        List<Post> res = new ArrayList<>();
+        Session session = sessionFactory.getCurrentSession();
 
-        List<Map<String, Object>>  list = DbManager.runQuery("select * from posts");
 
-        for (Map<String, Object> item: list){
+        return session.createQuery("from Post").list();
 
-            /*Post p = new Post();
-
-            p.setId((Integer)item.get("id"));
-            p.setDate((Date) item.get("date"));
-            p.setSubject((String) item.get("subject"));
-            p.setText((String) item.get("text"));*/
-
-            Post p = new PostMapper().map(item);
-
-            res.add(p);
-        }
-
-        return res;
     }
 }

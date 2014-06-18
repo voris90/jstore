@@ -6,10 +6,7 @@ import uz.micros.jstore.entity.blog.Blog;
 import uz.micros.jstore.entity.blog.Comment;
 import uz.micros.jstore.entity.blog.Post;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 @Service
 public class PostService {
@@ -34,7 +31,7 @@ public class PostService {
                 list.add(comment);
                 list.add(comment);
 
-                post.setComments(list);
+                post.setComments(new HashSet<>(list));
 
                 return post;
             }
