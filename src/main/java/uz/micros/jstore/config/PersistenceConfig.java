@@ -8,16 +8,26 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.orm.hibernate4.HibernateTransactionManager;
 import org.springframework.orm.hibernate4.LocalSessionFactoryBean;
+import org.springframework.orm.jpa.JpaTransactionManager;
+import org.springframework.orm.jpa.JpaVendorAdapter;
+import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
+import org.springframework.orm.jpa.vendor.Database;
+import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
+import javax.persistence.Entity;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
 import java.util.Properties;
 
 @Configuration
 @EnableTransactionManagement
+@EnableJpaRepositories(basePackages = "uz.micros.jstore.repository")
 public class PersistenceConfig {
 
     @Value("${hibernate.dialect}")
@@ -37,12 +47,22 @@ public class PersistenceConfig {
     private String url;
 
     @Bean
-    public LocalSessionFactoryBean sessionFactory(){
-        LocalSessionFactoryBean res = new LocalSessionFactoryBean();
-
-        res.setDataSource(getDataSource());
+    public EntityManagerFactory entityManagerFactory(){
+        LocalContainerEntityManagerFactoryBean res = new LocalContainerEntityManagerFactoryBean();
         res.setPackagesToScan("uz.micros.jstore.entity.blog");
-        res.setHibernateProperties(getProperties());
+        res.setDataSource(getDataSource());
+        res.setJpaProperties(getProperties());
+        res.setJpaVendorAdapter(getjpaVendorAdapter());
+        res.afterPropertiesSet();
+
+        return res.getObject();
+    }
+
+    private JpaVendorAdapter getjpaVendorAdapter() {
+        HibernateJpaVendorAdapter res = new HibernateJpaVendorAdapter();
+        res.setShowSql(Boolean.valueOf(showSql));
+        res.setGenerateDdl(true);
+        res.setDatabase(Database.MYSQL);
 
         return res;
     }
@@ -69,11 +89,10 @@ public class PersistenceConfig {
     }
 
     @Bean
-    @Autowired
-    public PlatformTransactionManager transactionManager(SessionFactory sessionFactory){
-        HibernateTransactionManager res = new HibernateTransactionManager();
-        res.setSessionFactory(sessionFactory);
+        public PlatformTransactionManager transactionManager(){
+            JpaTransactionManager res = new JpaTransactionManager();
+            res.setEntityManagerFactory(entityManagerFactory());
 
-        return res;
+            return res;
     }
 }
