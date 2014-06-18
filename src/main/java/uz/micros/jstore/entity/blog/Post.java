@@ -11,12 +11,18 @@ public class Post {
     @Id
     @GeneratedValue
     private int id;
+
+    @Column(unique = true, nullable = false)
     private String subject;
+
+    @Column(columnDefinition = "varchar(4096)", nullable = false)
     private String text;
+    @Column(nullable = false)
     private Date date;
+    @Column(nullable = false)
     private String author;
 
-    @OneToMany(mappedBy = "post")
+    @OneToMany(mappedBy = "post", fetch = FetchType.EAGER)
     private Set<Comment> comments;
 
     public int getId() {
