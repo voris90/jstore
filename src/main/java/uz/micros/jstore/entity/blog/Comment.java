@@ -10,8 +10,11 @@ public class Comment {
     @Id
     @GeneratedValue
     private int id;
+    @Column (nullable = false)
     private String text;
+    @Column (nullable = false)
     private Date date;
+    @Column (nullable = false)
     private String author;
 
     @Column(insertable = false, updatable = false)
@@ -51,5 +54,13 @@ public class Comment {
 
     public void setAuthor(String author) {
         this.author = author;
+    }
+
+    public Post getPost() {
+        return post;
+    }
+
+    public void setPost(Post post) {
+        this.post = post;
     }
 }
