@@ -3,12 +3,16 @@ package uz.micros.jstore.controller.blog;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 import uz.micros.jstore.entity.blog.Comment;
 import uz.micros.jstore.entity.blog.Post;
 import uz.micros.jstore.service.blog.PostService;
+
+import java.util.stream.Stream;
 
 @Controller
 @RequestMapping("/blog/posts")
@@ -36,12 +40,12 @@ public class PostController {
         }
     }
     @RequestMapping("/edit/{id}")
-    public ModelAndView edit(int id){
+    public ModelAndView edit(@PathVariable int id){
         Post post = service.get(id);
 
         if (post != null) {
-            return new ModelAndView("blog/edit/post")
-                    .addObject("post", post);
+            return new ModelAndView("blog/editPost")
+                    .addObject("newPost", post);
         } else {
 
             return new ModelAndView("NotFound");
@@ -54,5 +58,19 @@ public class PostController {
 
         return "redirect:/blog";
 
+    }
+    @RequestMapping("/create")
+    public ModelAndView create(){
+
+        return new ModelAndView("blog/editPost")
+                .addObject("newPost", new Post());
+
+    }
+    @RequestMapping(method = RequestMethod.POST)
+
+    public String save(@ModelAttribute Post post){
+        post = service.save(post);
+
+        return  "redirect:/blog/posts/" + post.getId();
     }
 }
